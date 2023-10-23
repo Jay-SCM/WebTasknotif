@@ -1,3 +1,10 @@
+body {
+    background-color: #2c2c2c;
+    background-image: url(assets/SpaceCat.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 .CheckBtnSection {
     display: flex;
     justify-content: center;
@@ -9,9 +16,13 @@
     height: 800px;
     border: 1px solid #0a0a0a;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 20px;
     background-color: coral;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+.CARD:hover {
+    transform: scale(1.1);
 }
 .inputContainer {
     display: flex;
@@ -32,15 +43,45 @@
 }
 .CheckBtn {
     height: 80px;
+    width: 80px;
     background-color: #0e0ebe;
     color: white;
     border: none;
     padding: 5px 10px;
-    border-radius: 3px;
+    border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
 }
 .CheckBtn:hover {
     background-color: #dc1991;
     color: white;
+}
+.CheckBtn:nth-child(1){
+    background-image: url(assets/SqrChckBox.png);
+    /*background-image: url(assets/unchecked.png);*/
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    border-radius: 16%;
+    /*using javascript to handle the change from ticked to unticked */
+}
+.CheckBtn:nth-child(2){
+    background-image: url(assets/SqrChckBox.png);
+    /*background-image: url(assets/unchecked.png);*/
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    /*using javascript to handle the change from ticked to unticked */
+}
+.CheckBtn:nth-child(3){
+    background-image: url(assets/SqrChckBox.png);
+    /*background-image: url(assets/unchecked.png);*/
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    /*using javascript to handle the change from ticked to unticked */
+}
+.CheckBtn:nth-child(4){
+    background-image: url(assets/SqrChckBox.png);
+    /*background-image: url(assets/unchecked.png);*/
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    /*using javascript to handle the change from ticked to unticked */
 }
