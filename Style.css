@@ -1,0 +1,29 @@
+.CARD{
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 60px;
+    background-color: coral;
+}
+.inputContainer{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.inputBox{
+    flex: 1;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: aqua;
+}
+
+.CheckBtn{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius:3px;
+    cursor: pointer;
+    align-content: center;
+}
