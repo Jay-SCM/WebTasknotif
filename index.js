@@ -1,0 +1,1 @@
+const love() = {game: 'football', food: 'pizza', drink: 'coke'};
